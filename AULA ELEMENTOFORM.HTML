@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FORM</title>
+</head>
+<body style="text-align: center;">
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg?w=2000);
+            background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+        }
+    </style>
+
+    <br>
+    <header style="background-color: rgb(0, 157, 255);color: aliceblue;">
+    <h1 style="font-weight: 900;font-family: Arial, Helvetica, sans-serif">LUGARES PARA VIAJAR</h1>
+    <br>
+</header>
+
+    <form action="">
+       <label for="Nome">Nome:</label>
+       <input type="text" required> 
+       <label for="Sobrenome">Sobrenome:</label>
+       <input type="Sobrenome" required>
+       <br>
+        <br>
+       <label for="e-mail">E-mail:</label>
+       <input type="email" name="" size="58" id="" required placeholder="hilary.castelar@gmail.com">
+       <br>
+       <br>
+       <!-- Ação para enviar o formulário-->
+       <br>
+       <h2 style="color: rgb(0, 157, 255); background-color:  aliceblue;" >Destino da sua viagem</h2>
+    <label for="RG">Destino nacional </label>
+       <input type="radio" name="reg" id="dn">
+       <br>
+    <label for="RG">Destino Internacional </label>
+       <input type="radio" name="reg" id="di">
+       <br>
+       <br>
+       <p style="color: rgb(0, 38, 255);">Selecione seu Gênero</p>
+       <label for="gn1">Masculino</label>
+       <input type="radio" name="gn" id="op1">
+       <br>
+       <label for="gn1">Feminino</label>
+       <input type="radio" name="gn" id="op2">
+       <br>
+       <label for="gn1">Não quero identificar</label>
+       <input type="radio" name="gn" id="op3">
+       <br>
+       <br>
+<h2 style="color:rgb(0, 157, 255); background-color:  aliceblue;">Locais das primeiras Viagens Nacionais</h2>
+<input type="checkbox" name="op1" id="op1">
+<label for="op1">Arraial do Cabo</label>
+<br>
+<input type="checkbox" name="op2" id="op2">
+<label for="op2">Florianópolis</label>
+<br>
+<input type="checkbox" name="op3" id="op3">
+<label for="op3">Fortaleza</label>
+<br>
+<input type="checkbox" name="op4" id="op4">
+<label for="op4">Fernando de Noronha</label>
+<br>
+<br>
+<!--Utilizando o elemento select-->
+<h2 style="color:rgb(0, 157, 255);background-color: aliceblue ;">Formas de Pagamento</h2>
+<br>
+<select name="fpagamento" id="fpagamento">
+ <option value="Selecione" hidden>Selecione uma opção</option>
+<option value="fp1">Cartão de Crédito</option>
+<option value="fp2">Cartão de Débito</option>
+<option value="fp4">TED</option>
+<option value="fp5">PIX</option>
+<option value="fp6">Cheque</option>
+<option value="fp6">Boleto</option>
+<br>
+<br>
+</select>
+<br>
+<br>
+<input type="submit" value="Enviar" >
+
+    </form>
+</body>
+</html>
