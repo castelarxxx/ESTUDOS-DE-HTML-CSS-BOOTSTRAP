@@ -1,0 +1,31 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/wp6035833.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+   
+ }
+a {
+  
+    padding: 12px 32px;
+    font-weight: 700px ;
+    font-size: 20px ;
+    line-height: 24px;
+    color: white ;
+    opacity: .6;
+  }
+  a:hover,
+   .btn.primary{
+    color: black;
+    background-color: #e700dc;
+    text-decoration: none;
+    opacity: 1;
+  }
+  p{
+    padding: 12px 32px;
+    font-weight: 900px ;
+    font-size: 25px ;
+    line-height: 24px;
+    color: white ;
+    opacity: .8;
+  }
+ 
