@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+h1{
+    background-color: pink;
+}
+.p1::after{
+content: " -Novo Conteúdo";
+background-color: rgb(252, 0, 105);
+    color: white;
+}
+.p2::before{
+    content: "Novo Conteúdo--";
+    background-color: rgb(252, 0, 105);
+    color: white;
+    }
+.p3::selection{
+background-color: rgb(252, 0, 105);
+color: white;
+}

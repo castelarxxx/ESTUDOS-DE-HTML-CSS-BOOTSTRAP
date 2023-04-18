@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+h1{
+    background-color: rgb(240, 11, 11);
+     text-align: center;
+  
+}
+h2{
+  background-color: rgb(224, 209, 0);text-align:center;
+  
+}
+p{
+    color: aliceblue;}
+    .title{
+     background-color: aliceblue;
+     color: black;
+    }
+    @media (min-width:500px){
+        h1{
+            color:aliceblue;
+            font-size: 60px;
+        }
+        p{ 
+            font-size: 2.1em }
+
+        h2{ font-size: 60px}
+    }

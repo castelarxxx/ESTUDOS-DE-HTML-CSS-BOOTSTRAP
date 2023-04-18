@@ -1,0 +1,50 @@
+h1{ color: aliceblue;
+
+}
+h2{
+color: aliceblue;
+
+}
+nav{
+    background-color:aliceblue;
+    color: aliceblue;
+    padding: 0;
+    height: 1.5em;
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+}
+a:hover{
+    background-color: blue;
+    color: red;
+}
+
+.section1{ 
+    color: aliceblue;
+
+}
+.section2{
+    color: aliceblue;
+ }
+ p{ 
+    color: aliceblue;
+}
+    body {
+        background-color: black
+      }
+
+img{
+    float: right;
+}
+
+@media screen and (max-width: 650px) {
+    h1,h2,p{
+        font-size: 1.4em
+    }
+    body {
+        background-color: black
+      }
+      img{
+        display: none;
+      }
+}
